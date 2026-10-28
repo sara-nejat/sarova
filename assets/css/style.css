@@ -1,0 +1,241 @@
+@font-face {
+    font-family: "myfont";
+    src: url(../font/static/Caveat-Regular.ttf);
+    font-family: "myfont1";
+    src: url(../font/static/CormorantGaramond-BoldItalic.ttf);
+    font-family: "myfont2";
+    src: url(../font/static/CormorantGaramond-Bold.ttf);
+    font-family: "myfont3";
+    src: url(../font/static/Jost-SemiBold.ttf);
+}
+
+.rang1 {
+    background-color: #6d0b13e3;
+    font-family: "myfont";
+}
+
+.rang2 {
+    background-color: rgba(138, 105, 105, 0.514);
+    color: #300209;
+}
+
+.menu0 {
+    color: #580411;
+}
+
+.menu1 {
+    font-size: 19px;
+    font-weight: bolder;
+    color: #250309;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+        color: #580411;
+        transform: scale(1.1);
+    }
+}
+
+.transform1 {
+    transform: translateY(9px);
+}
+
+.btn1:hover {
+    background-color: rgba(73, 4, 4, 0.562);
+}
+
+.btn-close {
+    background-color: rgb(63, 0, 0);
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.678);
+    }
+}
+/* main s1 */
+.ss{
+  overflow-x: hidden;
+}
+.brand0{
+  width: 101%;
+    height: auto;
+    object-position: bottom;
+    object-fit: cover;
+    aspect-ratio: 9/14;
+}
+.fib{
+    font-family: "myfont1";
+    color: #300209;
+}
+.fbs{
+    font-family: "myfont3";
+    color: #2b1d20;
+}
+.str{
+  color: #7e4a0e;
+  border: none;
+  text-decoration: none;
+  font-size: 21px;
+  
+}
+
+.button-77 {
+  
+  align-items: center;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "myfont3";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  justify-content: center;
+  line-height: 20px;
+  margin: 0;
+  min-height: 42px;
+  outline: none;
+  overflow: visible;
+  padding: 11.5px 19px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: auto;
+  word-break: keep-all;
+  z-index: 0;
+  margin-top: 25px;
+    
+}
+
+@media (min-width: 768px) {
+  .button-77 {
+    padding: 11.5px 24px;
+    
+  }
+}
+
+.button-77:before {
+  background-color: #860101;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+  
+}
+
+.button-77:after {
+  background-color: initial;
+  background-image: linear-gradient(92.83deg, #3b030a 0, #3b030a 100%);
+  bottom: 2.6px;
+  content: "";
+  display: block;
+  left: 2.6px;
+  overflow: hidden;
+  position: absolute;
+  right: 2.6px;
+  top: 2.6px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+  
+}
+
+.button-77:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+  
+}
+
+.button-77:active:not(:disabled) {
+  color: #ccc;
+  
+}
+
+.button-77:active:not(:disabled):after {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #300209 0, #300209 100%);
+  bottom: 2.6px;
+  left: 2.6px;
+  right: 2.6px;
+  top: 2.6px;
+  
+}
+
+.button-77:disabled {
+  cursor: default;
+  opacity: .24;
+  
+}
+.A{
+  margin-top: 50px;
+  }
+  .V1:hover{
+transform: scale(1.1);
+    }
+    .V2:hover{
+transform: scale(1.1);
+    }
+    .V3:hover{
+transform: scale(1.1);
+    }
+    .V1,.V2,.V3{
+    transition: transform 0.3s ease-in-out;
+    }
+  
+
+@media (min-width:768px)
+{
+  .brand0{width: 100%;
+  height: auto;}
+  .media{
+    width: 50%;
+    margin-right: -10px;
+  }
+  .text1{
+    width: 50%;
+    margin-top: 80px;
+  }
+  .fib{
+    font-size: 35px;
+    font-weight: 900;
+    
+  }
+  .fbs{
+    font-size: 19px;
+    line-height: 55px;
+    
+  }
+  .str{
+    font-size:19px;
+  }
+  
+}
+
+@media(min-width:1024px){
+.brand0{width: 488px;
+  height: auto;
+}
+  .media{
+    width: 50%;
+  }
+}
+
+
+
