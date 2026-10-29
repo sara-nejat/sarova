@@ -240,11 +240,3 @@ transform: scale(1.1);
     width: 50%;
   }
 }
-
-html {
-  scrollbar-color: #300209 #ffffffc0; 
-  scrollbar-width: thin;
-}
-
-
-
