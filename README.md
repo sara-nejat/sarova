@@ -15,7 +15,7 @@ with modern design, high quality and reasonable prices.
 
 <br>
 
-<img src="assets/img/screenshot.png" alt="Sarova Preview" width="85%">
+<img src="assets/img/Screenshot (60).png" alt="Sarova Preview" width="85%">
 
 </div>
 
